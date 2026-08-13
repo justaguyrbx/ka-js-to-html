@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>KA JS to HTML Converter</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>KA JS to HTML</h1>
+
+    <form>
+        <label for="jscode">KA JS code in here:</label>
+        <textarea
+            id="jscode"
+            name="js code"
+            rows="4"
+            cols="50"
+            placeholder="Type your code here..."
+        ></textarea>
+    </form>
+
+    <button id="convertButton" type="button">Convert and download!</button>
+
+    <output
+        id="output"
+        style="display: block; border: 1px solid black; min-height: 50px; width: 500px;"
+    ></output>
+
+    <script src="converter.js"></script>
+</body>
+</html>
